@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 // пример написан на основе видио https://www.youtube.com/watch?v=ANlcc2p9kCU&list=PLwcDaxeEINactCC4mly7RQon5juIpH-Q3&index=3
-namespace FasadePatternConsole
+namespace FacadePatternConsole
 {
     class Program
     {
@@ -20,6 +20,12 @@ namespace FasadePatternConsole
         }
     }
     
+    //класс - фасад
+    class ComputerFacade
+    {
+
+    }
+    //рабочие класс
     class Power
     {
         public void On()
