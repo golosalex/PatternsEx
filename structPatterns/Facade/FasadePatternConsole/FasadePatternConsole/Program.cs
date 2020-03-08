@@ -17,12 +17,32 @@ namespace FacadePatternConsole
 
             HDD hdd = new HDD();
             hdd.CopyFromDVD(dvd);
+
+            // то же но через фасад
+            ComputerFacade CF = new ComputerFacade
+            {
+                DVDOfComputer = new DVDRom(),
+                PwOfComputer = new Power(),
+                HDDOfComputer = new HDD()
+            };
+            CF.Copy();
         }
     }
     
     //класс - фасад
     class ComputerFacade
     {
+        // комплектующие как составные фасада идут в поля класса
+        public Power PwOfComputer { get; set; }
+        public DVDRom DVDOfComputer { get; set; }
+        public HDD HDDOfComputer { get; set; }  
+
+        public void Copy()
+        {
+            PwOfComputer.On();
+            DVDOfComputer.Load();
+            HDDOfComputer.CopyFromDVD(DVDOfComputer);
+        }
 
     }
     //рабочие класс

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasadePatternConsole", "FasadePatternConsole\FasadePatternConsole.csproj", "{9C85FC04-543D-46F7-A0EC-1B3ECB9DB25C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePatternConsole", "FasadePatternConsole\FacadePatternConsole.csproj", "{9C85FC04-543D-46F7-A0EC-1B3ECB9DB25C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
