@@ -8,6 +8,10 @@ namespace BilderPattern
 {
     interface IBilder
     {
-        
+        IBilder setHeader();
+        IBilder setBody();
+        IBilder setFutter();
+
+        HTMLPage GetHtmlPage();
     }
 }

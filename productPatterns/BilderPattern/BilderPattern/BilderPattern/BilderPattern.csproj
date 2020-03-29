@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HTMLPage.cs" />
     <Compile Include="IBilder.cs" />
     <Compile Include="IHTMLComponent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SipleBilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

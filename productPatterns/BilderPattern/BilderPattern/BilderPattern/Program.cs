@@ -10,6 +10,9 @@ namespace BilderPattern
     {
         static void Main(string[] args)
         {
+            IBilder bilder = new SipleBilder();
+            bilder.setBody().setFutter().setHeader();
+            Console.WriteLine(bilder.GetHtmlPage());
         }
     }
 }
